@@ -1,6 +1,3 @@
-// enter partner ID here
-const partnerID = "";
-
 function isAndroid() {
   return /(android)/i.test(window.navigator.userAgent);
 }
@@ -32,6 +29,14 @@ function init() {
     const deviceType = isAndroid() ? "android" : isIOS() ? "ios" : "desktop";
     loadFont();
     console.log("makeARbutton");
+    // enter partner ID here
+    let partnerID = undefined;
+    try {
+      console.log(window.partnerID);
+      partnerID = window.partnerID;
+    } catch (err) {
+      console.log(err);
+    }
 
     const buttons = document.getElementsByClassName("ar-hub-btn");
 
