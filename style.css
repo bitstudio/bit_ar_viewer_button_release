@@ -1,0 +1,17 @@
+.ar-hub-btn {
+  display: flex;
+  width: fit-content;
+  padding: 1rem 2.5rem;
+  background: #2a6dc9;
+  color: white;
+  border-radius: 45px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit";
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 140%;
+  cursor: pointer;
+  text-decoration: none;
+}

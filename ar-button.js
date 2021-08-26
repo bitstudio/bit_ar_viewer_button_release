@@ -50,26 +50,6 @@ function init() {
         }
       }
 
-      button.style.display = "flex";
-      button.style.width = "fit-content";
-      button.style.paddingTop = "1rem";
-      button.style.paddingBottom = "1rem";
-      button.style.paddingLeft = "2.5rem";
-      button.style.paddingRight = "2.5rem";
-      button.style.background = "#2A6DC9";
-      button.style.color = "white";
-      button.style.borderRadius = "45px";
-      button.style.textAlign = "center";
-      button.style.justifyContent = "center";
-      button.style.alignItems = "center";
-      button.style.fontFamily = "Kanit";
-      button.style.fontStyle = "Regular";
-      button.style.fontSize = "1.6rem";
-      button.style.lineHeight = "140%";
-
-      button.style.cursor = "pointer";
-      button.style.textDecoration = "none";
-
       const productID = button.getAttribute("data-product-id");
 
       const handleClickButton = async () => {
