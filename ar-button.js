@@ -49,7 +49,8 @@ function init() {
       }
 
       button.style.display = "flex";
-      button.style.width = "40%";
+      button.style.width = "100%";
+      button.style.maxWidth = "350px";
       button.style.paddingTop = "1rem";
       button.style.paddingBottom = "1rem";
       button.style.paddingLeft = "2rem";
