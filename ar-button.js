@@ -28,14 +28,12 @@ function init() {
   const makeARbutton = async () => {
     const deviceType = isAndroid() ? "android" : isIOS() ? "ios" : "desktop";
     loadFont();
-    console.log("makeARbutton");
     // enter partner ID here
     let partnerID = undefined;
     try {
-      console.log(window.partnerID);
       partnerID = window.partnerID;
     } catch (err) {
-      console.log(err);
+      console.error(err);
     }
 
     const buttons = document.getElementsByClassName("ar-hub-btn");
@@ -73,7 +71,6 @@ function init() {
       const img = document.getElementsByClassName("ar-hub-btn")[0].children[0];
       img.style.width = "100%";
       img.style.height = "auto";
-      console.log(img);
 
       const productID = button.getAttribute("data-product-id");
 
@@ -157,5 +154,4 @@ function init() {
 
 window.addEventListener("load", () => {
   init();
-  console.log("script loaded");
 });
