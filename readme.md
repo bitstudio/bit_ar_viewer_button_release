@@ -1,3 +1,1 @@
-## Quick Start
-
-### Install
+## AR viewer button
