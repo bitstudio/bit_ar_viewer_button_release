@@ -50,6 +50,31 @@ function init() {
         }
       }
 
+      button.style.display = "flex";
+      button.style.width = "40%";
+      button.style.paddingTop = "1rem";
+      button.style.paddingBottom = "1rem";
+      button.style.paddingLeft = "2rem";
+      button.style.paddingRight = "2rem";
+      button.style.background = "#0025f5";
+      button.style.color = "white";
+      button.style.borderRadius = "45px";
+      button.style.textAlign = "center";
+      button.style.justifyContent = "center";
+      button.style.alignItems = "center";
+      button.style.fontFamily = "Kanit";
+      button.style.fontStyle = "Regular";
+      button.style.fontSize = "1.6rem";
+      button.style.lineHeight = "140%";
+
+      button.style.cursor = "pointer";
+      button.style.textDecoration = "none";
+
+      const img = document.getElementsByClassName("ar-hub-btn")[0].children[0];
+      img.style.width = "100%";
+      img.style.height = "auto";
+      console.log(img);
+
       const productID = button.getAttribute("data-product-id");
 
       const handleClickButton = async () => {
