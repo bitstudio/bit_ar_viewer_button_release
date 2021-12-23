@@ -6,7 +6,7 @@ function isIOS() {
 }
 
 const qrcode_url = "https://bit-ar-viewer-qrcode.web.app/?endpoint=";
-const url_endpoint = "https://arhub.app";
+const url_endpoint = "https://arhub.app/";
 
 function init() {
   function loadFont() {
@@ -79,7 +79,7 @@ function init() {
         button.removeEventListener("click", handleClickButton);
         if (deviceType === "desktop") {
           button.addEventListener("click", handleClickButton);
-          window.open(qrcode_url + url_endpoint + "/products/" + productID, "_blank");
+          window.open(qrcode_url + url_endpoint + "products/" + productID, "_blank");
           return;
         } else {
           const res = await fetch(
