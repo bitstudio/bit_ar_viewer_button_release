@@ -6,7 +6,7 @@ function isIOS() {
 }
 
 const qrcode_url = "https://bit-ar-viewer-qrcode.web.app/?endpoint=";
-const url_endpoint = "https://staging---bit-ar-viewer-a4ghjocxma-uc.a.run.app";
+const url_endpoint = "https://arhub.app/";
 
 function init() {
   function loadFont() {
