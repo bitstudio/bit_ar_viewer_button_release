@@ -9,25 +9,25 @@ const qrcode_url = "https://bit-ar-viewer-qrcode.web.app/?endpoint=";
 const url_endpoint = "https://arhub.app/";
 
 function init() {
-  function loadFont() {
-    const webfontScript = document.createElement("script");
-    webfontScript.type = "text/javascript";
-    webfontScript.src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js";
+  // function loadFont() {
+  //   const webfontScript = document.createElement("script");
+  //   webfontScript.type = "text/javascript";
+  //   webfontScript.src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js";
 
-    webfontScript.onload = function () {
-      WebFont.load({
-        google: {
-          families: ["Kanit"],
-        },
-      });
-    };
+  //   webfontScript.onload = function () {
+  //     WebFont.load({
+  //       google: {
+  //         families: ["Kanit"],
+  //       },
+  //     });
+  //   };
 
-    document.head.appendChild(webfontScript);
-  }
+  //   document.head.appendChild(webfontScript);
+  // }
 
   const makeARbutton = async () => {
     const deviceType = isAndroid() ? "android" : isIOS() ? "ios" : "desktop";
-    loadFont();
+    // loadFont();
     // enter partner ID here
     let partnerID = undefined;
     try {
