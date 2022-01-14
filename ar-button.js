@@ -48,6 +48,7 @@ function init() {
       button.style.fontStyle = "Regular";
       button.style.fontSize = "1.6rem";
       button.style.lineHeight = "140%";
+      button.style.margin = "auto";
 
       button.style.cursor = "pointer";
       button.style.textDecoration = "none";
