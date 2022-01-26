@@ -41,14 +41,16 @@ function init() {
       let text_a = document.createElement("p");
       text_a.style.margin = "0";
       text_a.innerText = "ดูโมเดลด้วย";
+      text_a.style.fontSize = "1.8rem";
       let icon = document.createElement("img");
-      icon.style.height = "2rem";
-      icon.style.width = "2rem";
+      icon.style.height = "70%";
+      icon.style.width = "auto";
       icon.style.margin = "0 .2rem";
       icon.src = "https://storage.googleapis.com/bit-ar-viewer/commer_button/ar_icon.svg";
       let text_b = document.createElement("p");
       text_b.style.margin = "0";
       text_b.innerText = "ARhub";
+      text_b.style.fontSize = "1.8rem";
       wrapper.appendChild(text_a);
       wrapper.appendChild(icon);
       wrapper.appendChild(text_b);
@@ -60,7 +62,7 @@ function init() {
       //   justifyContent: "row",
       // };
 
-      wrapper.style.height = "100%";
+      wrapper.style.height = "4rem";
       wrapper.style.width = "100%";
       wrapper.style.display = "flex";
       wrapper.style.justifyContent = "center";
