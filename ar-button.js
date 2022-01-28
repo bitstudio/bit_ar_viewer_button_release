@@ -41,7 +41,8 @@ function init() {
       let text_a = document.createElement("p");
       text_a.style.margin = "0";
       text_a.innerText = "ดูโมเดลด้วย";
-      text_a.style.fontSize = "1.8rem";
+      text_a.style.whiteSpace = "pre";
+      text_a.style.fontSize = "2.5rem";
       let icon = document.createElement("img");
       icon.style.height = "70%";
       icon.style.width = "auto";
@@ -50,7 +51,7 @@ function init() {
       let text_b = document.createElement("p");
       text_b.style.margin = "0";
       text_b.innerText = "ARhub";
-      text_b.style.fontSize = "1.8rem";
+      text_b.style.fontSize = "2.5rem";
       wrapper.appendChild(text_a);
       wrapper.appendChild(icon);
       wrapper.appendChild(text_b);
@@ -62,7 +63,7 @@ function init() {
       //   justifyContent: "row",
       // };
 
-      wrapper.style.height = "4rem";
+      wrapper.style.height = "6rem";
       wrapper.style.width = "100%";
       wrapper.style.display = "flex";
       wrapper.style.justifyContent = "center";
@@ -80,7 +81,7 @@ function init() {
 
       button.style.display = "flex";
       button.style.width = "100%";
-      button.style.maxWidth = "350px";
+      button.style.maxWidth = "420px";
       button.style.height = "100%";
       button.style.maxHeight = "250px";
       button.style.paddingTop = "1rem";
