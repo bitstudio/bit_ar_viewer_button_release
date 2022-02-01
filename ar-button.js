@@ -114,7 +114,7 @@ function init() {
         button.removeEventListener("click", handleClickButton);
         if (deviceType === "desktop") {
           button.addEventListener("click", handleClickButton);
-          window.open(qrcode_url + url_endpoint + "products/" + productID, "_blank");
+          window.open(qrcode_url + model_fetcher_url + "/?id=" + productID, "_blank");
           return;
         } else {
           button.addEventListener("click", handleClickButton);
