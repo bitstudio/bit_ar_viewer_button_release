@@ -49,15 +49,15 @@
 .ar-hub-btn-loader {
   display: inline-block;
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 7rem;
+  height: 7rem;
 }
 .ar-hub-btn-loader div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: 6rem;
+  height: 6rem;
   margin: 8px;
   border: 8px solid #fff;
   border-radius: 50%;
