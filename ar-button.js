@@ -30,6 +30,7 @@ function init() {
 
     for (const button of buttons) {
       let wrapper = document.createElement("div");
+      wrapper.classList.add("content-wrapper");
       let text_a = document.createElement("p");
       // text_a.style.margin = "0";
       text_a.innerText = "ดูโมเดลด้วย";
@@ -89,6 +90,13 @@ function init() {
         window.open(model_fetcher_url + "/?id=" + productID);
       };
       button.addEventListener("click", handleClickButton);
+
+      console.log(button.childNodes);
+      for (let node of button.childNodes) {
+        if (node.className === "ar-hub-btn-loader") {
+          button.removeChild(node);
+        }
+      }
     }
   };
 
