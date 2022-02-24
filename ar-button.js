@@ -51,12 +51,12 @@ function init() {
       };
       button.addEventListener("click", handleClickButton);
 
-      // console.log(button.childNodes);
-      // for (let node of button.childNodes) {
-      //   if (node.className === "ar-hub-btn-loader") {
-      //     button.removeChild(node);
-      //   }
-      // }
+      console.log(button.childNodes);
+      for (let node of button.childNodes) {
+        if (node.className === "ar-hub-btn-loader") {
+          button.removeChild(node);
+        }
+      }
     }
   };
 
