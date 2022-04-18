@@ -1,4 +1,4 @@
-const model_fetcher_url = "https://model-fetcher-website-a4ghjocxma-uc.a.run.app";
+const model_fetcher_url = "https://model.arhub.app";
 const url_endpoint = "https://arhub.app/";
 
 function init() {
